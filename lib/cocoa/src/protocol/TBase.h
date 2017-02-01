@@ -26,14 +26,14 @@
 /**
  * De-serialize object from the given input protocol
  *
- * @param input protocol used for reading 
+ * @param inProtocol input protocol used for reading 
  */
 - (void) read: (id <TProtocol>) inProtocol;
 
 /**
  * Serialize object to the given protocol
  *
- * @param buf output protocol used for writing
+ * @param outProtocol buf output protocol used for writing
  */
 - (void) write: (id <TProtocol>) outProtocol;
 
